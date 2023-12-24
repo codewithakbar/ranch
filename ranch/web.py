@@ -6,6 +6,7 @@ from ranch.application import BASE_DIR, INSTALLED_APPS
 # Web applications definition
 INSTALLED_APPS.extend(
     [
+        'jazzmin',
         "django.contrib.admin",
         "django.contrib.auth",
         "django.contrib.contenttypes",
@@ -81,3 +82,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "static"
+
+
+AUTH_USER_MODEL = 'users.User'

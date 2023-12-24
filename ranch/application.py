@@ -6,7 +6,8 @@ from ranch import env
 
 # Application definition
 INSTALLED_APPS: list[str] = [
-    "apps.core"
+    "apps.core",
+    "apps.users",
 ]
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
