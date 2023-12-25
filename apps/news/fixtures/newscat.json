@@ -1,0 +1,47 @@
+[
+    {
+        "model": "news.newscartegory",
+        "pk": 3,
+        "fields": {
+            "name": "Universitet",
+            "name_uz": "Universitet",
+            "name_en": "University",
+            "name_ru": "Университет",
+            "parent": null,
+            "slug": "universitet",
+            "slug_uz": "universitet",
+            "slug_en": "university",
+            "slug_ru": "universitet"
+        }
+    },
+    {
+        "model": "news.newscartegory",
+        "pk": 4,
+        "fields": {
+            "name": "Xalqaro Aloqalar",
+            "name_uz": "Xalqaro Aloqalar",
+            "name_en": "International Relations",
+            "name_ru": "Mеждународные Oтношения",
+            "parent": null,
+            "slug": "xalqaro-aloqalar",
+            "slug_uz": "xalqaro-aloqalar",
+            "slug_en": "international-relations",
+            "slug_ru": "mezhdunarodnye-otnosheniya"
+        }
+    },
+    {
+        "model": "news.newscartegory",
+        "pk": 5,
+        "fields": {
+            "name": "Ommaviy tadbirlar",
+            "name_uz": "Ommaviy tadbirlar",
+            "name_en": "Public events",
+            "name_ru": "Публичные мероприятия",
+            "parent": null,
+            "slug": "ommaviy-tadbirlar",
+            "slug_uz": "ommaviy-tadbirlar",
+            "slug_en": "public-events",
+            "slug_ru": "publichnye-meropriyatiya"
+        }
+    }
+]
